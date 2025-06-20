@@ -35,27 +35,28 @@
 
 ## 🧑‍💻 Setup Instructions
 
-1. **Clone the Repository**
-git clone https://github.com/VankayalaJabili/Restaurant-Recommendation.git
-cd Restaurant-Recommendation
-2.**Install Frontend Dependencies**
-cd client
-npm install
-3. **Install Backend Dependencies**
-cd ../server
-npm install
-4. **Setup Environment Variables**
-Create a .env file in the server directory:
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/restaurantDB
-5. **Run the App**
-Start Backend:npm start
-Start Frontend:
-cd ../client
-npm start
-6.**Open your browser and go to: http://localhost:3000**
+1. **Clone the Repository**<br>
+git clone https://github.com/VankayalaJabili/Restaurant-Recommendation.git<br>
+cd Restaurant-Recommendation<br>
+2.**Install Frontend Dependencies**<br>
+cd client<br>
+npm install<br>
+3. **Install Backend Dependencies**<br>
+cd ../server<br>
+npm install<br>
+4. **Setup Environment Variables**<br>
+Create a .env file in the server directory:<br>
+PORT=5000<br>
+MONGODB_URI=mongodb://localhost:27017/restaurantDB<br>
+5. **Run the App**<br>
+Start Backend:npm start<br>
+Start Frontend:<br>
+cd ../client<br>
+npm start<br>
+6.**Open your browser and go to: http://localhost:3000**<br>
 
 ## 📁 Project Structure
+```
 the-local-gourmet/
 ├── client/
 │   ├── src/
@@ -77,3 +78,4 @@ the-local-gourmet/
 │   ├── .env
 │   └── index.js
 └── README.md
+```
